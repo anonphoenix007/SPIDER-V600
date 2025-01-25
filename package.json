@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "up",
     "main": "index.js",
+    "engines": {
+        "node": "20.16.0"
+    },
     "type": "commonjs",
     "scripts": {
         "start": "node index.js"
