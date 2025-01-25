@@ -838,4 +838,4 @@ fs.watchFile(file, () => {
   console.log(chalk.yellowBright("Update File Terbaru " + __filename));
   delete require.cache[file];
   require(file);
-});h
+});
